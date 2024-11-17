@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/styles/base.css">
+    <script src="/scripts/getdates.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Olivia Smart</title>
+    <meta description="WDD 131 - Dynamic Web Fundamentals - Olivia Smart">
+
+</head>
+
+<body>
+    <h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Favorite Scripture</a></li>
+                <li><a href='blank'target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </h1>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="/images/IMG_7397.jpg" width="100" height="150" alt="Image">
+            <p>My name is Olivia Smart. I was born in Southern California in a city called Rancho Cucamonga. However I currently live in Rexburg, Idaho with my husband. We are going to school mostly in person with the exception of a couple of online classes. I am a software engineering major although in my free time I love to crochet and read.</p>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="link1" target="_blank">Resource Link 1</a></li>
+                <li><a href="link2" target="_blank">Resource Link 2</a></li>
+                <li><a href="link3" target="_blank">Resource Link 3</a></li>
+                <li><a href="link4" target="_blank">Resource Link 4</a></li>
+                <li><a href="link5" target="_blank">Resource Link 5</a></li>
+                <li><a href="link5" target="_blank">Resource Link 6</a></li>
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+
+        <p>&copy; <span id="currentyear"></span> Olivia Smart, Idaho, USA</p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script>
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+        document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified
+    </script>
+</body>
+
+</html>
