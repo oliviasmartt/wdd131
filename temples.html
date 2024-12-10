@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 131 Temples Page for Cliff Cummings">
+    <meta name="author" content="Olivia Smart">
+    <meta name="keywords" content="Olivia Smart">
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+
+
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>WDD 131 - Temples Page - Olivia Smart</title>
 </head>
+
 <body>
+    <header id="layout">
+    <!-- <header> -->
+        <h1>Temple Album</h1>
+
+    <a id="menu" href="#" aria-label="Temple Page Menu"></a>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Old</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Large</a></li>
+            <li><a href="#">Small</a></li>
+        </ul>
+
+    </nav>
+  </header>
+
+  <main>
+    <section>
+        <h2 class="stdlf">Home</h2>
     
+        <div class="container stdlf">
+    
+            <figure>
+                <img src="images/redlands.jpg" alt="Redlands, California Temple" width="225">
+                <figcaption>Redlands, California Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/ancorage.jpg" alt="Ancorage, Alaska Temple" width="225">
+                <figcaption>Ancorage, Alaska Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/laie.jpg" alt="Laie, Hawaii Temple" width="225">
+                <figcaption>Laie, Hawaii Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/newport.jpg" alt="Newport, California Temple" width="225">
+                <figcaption>Newport, California Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/oakland.jpg" alt="Oakland, California Temple" width="225">
+                <figcaption>Oakland, California Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/provo.jpg" alt="Provo City Center, Utah Temple" width="225">
+                <figcaption>Provo City Center, Utah Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/rexburg.jpg" alt="Rexburg, Idaho Temple" width="225">
+                <figcaption>Rexburg, Idaho Temple</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="images/washingdc.jpg" alt="Washington DC Temple" width="225">
+                <figcaption>Washington DC Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/tijuana.jpg" alt="Tijuana, Mexico Temple" width="225">
+                <figcaption>Tijuana, Mexico Temple</figcaption>
+            </figure>
+        </div>
+    </section>
+
+</main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Olivia Smart, Idaho, USA</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
+
 </html>
